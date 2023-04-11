@@ -1,0 +1,144 @@
+/******************** HTML ***********************/
+
+body {
+    margin: auto;
+    font-family: monospace;
+    text-align: center;
+    background-image: url("images/race1.jpg");
+}
+
+header {
+    margin: auto;
+    padding-top: 50px;
+    background-color: black;
+        }
+        
+nav {
+    display: inline;
+    border: 0;
+    }
+    nav a { 
+        margin-left: 2%;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 15pt;
+    }
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1f1f1f;
+    height: 50px;
+    display: flex;
+}
+
+h4{
+    color: red;
+}
+
+
+
+/****************** CLASSEES *********************/
+
+.historie-b {
+    width: 40%;
+    height: 50px;
+    font-size: 15pt;
+    font-family: monospace;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+}
+
+.historie-b:hover {
+    background-color: black;
+}
+
+
+.race-jpg {
+    border-radius: 15px;
+    margin-right: 2%;
+}
+
+.fourrow{
+    display: flex;
+    background-color: #313233;
+    text-align: left;
+    justify-content: space-around;
+    padding: 40px 0 40px 0;
+}
+
+.tworow {
+    display: flex;
+}
+
+.hvid-t {
+    color: white;
+}
+
+
+/******************** ID'S ***********************/
+
+#racehall-logo {
+    width: 20%;
+    height: 10%;
+}
+
+#intro-video {
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+
+#velkommen {
+    width: 30%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#velkommen-h2 {
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 25pt;
+}
+
+#velkommen-p {
+    font-size: 15pt;
+    padding-bottom: 30px;
+}
+
+#facebook {
+    height: 20px;
+}
+
+#aarhus {
+   
+}
+
+#kbh {
+    
+}
+
+#om {
+    
+}
+
+#info {
+    
+}
+
+#race1 {
+    background-color: bisque;
+    height: 300px;
+    width: 50%;
+}
+
+#race2 {
+    background-color: blanchedalmond;
+    height: 300px;
+    width: 50%;
+}
+
